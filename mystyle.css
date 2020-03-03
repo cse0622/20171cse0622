@@ -36,6 +36,7 @@ p.one
 border-style:solid;
 border-width:5px;
 border-color:blue;
+padding:25px 50px 75px 100px;
 }
 
 
@@ -67,10 +68,106 @@ margin:25px 50px 75px
 
 
 
+#id4
+{
+border-style:solid;
+margin:2cm;
+padding:5px; 
+border-color:green;
+border-width:2px;
+}
+
+
+#id5
+{
+display:block;;
+}
+
+
+#id6{
+ display:inline
+}
+
+
+
+span.a{
+display:inline;
+width:100px;
+padding:5px;
+border:1px solid blue;
+background-color:red;
+}
+
+
+span.a1{
+display:inline-block;
+width:100px;
+padding:5px;
+border:1px solid blue;
+background-color:green;
+}
 
 
 
 
+
+
+span.a2{
+display:inline-block;
+width:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+
+
+
+
+
+#id7{
+color:black;
+}
+
+
+#id8{
+color:green;
+text-decoration:none;
+}
+
+#id9{
+color:black;
+padding:5px;
+text-decoration:none;
+border:2px solid green; width:100px;height:100px;
+}
+
+#id10{
+text-decoration:none;
+border:2px;
+border:2px solid green; width:100px;height:100px;background-color:orange;
+
+}
+
+
+
+
+a.link{
+color:red;
+}
+
+a.visited{
+color:green;
+}
+
+
+a.hover
+{
+color:pink;
+}
+
+a.active{
+color:orange;
+}
 
 
 
