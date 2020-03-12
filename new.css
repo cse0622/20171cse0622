@@ -42,3 +42,67 @@ margin:5cm;text-align:center;color:red;
 
 #grad6{height:125px; background-image:linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,0.5));}
 
+
+
+
+h4
+{
+width:100px;
+height:100px;
+background:red;
+transition:width 2s,height 4s,transform 2s;
+}
+h4:hover{width:300px;height:300px;
+transform:rotate(360deg);
+@keyframes example{
+from{background-color:red;}
+to{background-color:yellow;}
+
+
+}
+
+
+
+
+																				
+h5 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+h5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
